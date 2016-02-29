@@ -2,43 +2,51 @@
 //  GameScene.swift
 //  simpleRobot
 //
-//  Created by Jeffrey Cabrera on 24/02/2016.
+//  Created by Jeffrey Cabrera
 //  Copyright (c) 2016 jcab. All rights reserved.
 //
 
 import SpriteKit
+import AVFoundation
 
 class GameScene: SKScene {
+    
+    var titleName = SKSpriteNode()
+    var tapLabel = SKSpriteNode()
+    
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!"
-        myLabel.fontSize = 45
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
         
-        self.addChild(myLabel)
+        initGameScene()
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-       /* Called when a touch begins */
+       
+        let fadeOut = SKAction.fadeOutWithDuration(1.0)
+        tapLabel.runAction(fadeOut, completion: {
+            let doorsAnim = SKTransition.doorsOpenHorizontalWithDuration(0.5) //SKTransition.doorwayWithDuration(0.5)
+            let shooterScene = ShooterScene(fileNamed: "ShooterScene")
+            self.view?.presentScene(shooterScene!, transition: doorsAnim)
+        })
         
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
-        }
     }
-   
+    
+    func initGameScene() {
+        
+        titleName = SKSpriteNode(imageNamed: "title.png")
+        titleName.name = "titleNode"
+        titleName.size = CGSize(width: 747, height: 102)
+        titleName.position = CGPoint(x: self.size.width/2, y: self.size.height/1.5)
+        titleName.zPosition = 2
+        self.addChild(titleName)
+        
+        tapLabel = SKSpriteNode(imageNamed: "tap.png")
+        tapLabel.name = "tapNode"
+        tapLabel.size = CGSize(width: 433, height: 69)
+        tapLabel.position = CGPoint(x: self.size.width/2, y: self.size.height/4)
+        tapLabel.zPosition = 2
+        self.addChild(tapLabel)
+    }
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }

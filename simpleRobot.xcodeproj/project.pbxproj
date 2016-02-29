@@ -14,6 +14,22 @@
 		D19BC6E51C7CFD9400B779EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19BC6E31C7CFD9400B779EC /* Main.storyboard */; };
 		D19BC6E71C7CFD9400B779EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19BC6E61C7CFD9400B779EC /* Assets.xcassets */; };
 		D19BC6EA1C7CFD9400B779EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19BC6E81C7CFD9400B779EC /* LaunchScreen.storyboard */; };
+		D19BC6F81C7D025C00B779EC /* ShooterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19BC6F71C7D025C00B779EC /* ShooterScene.swift */; };
+		D19BC6FA1C7D028C00B779EC /* ShooterScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D19BC6F91C7D028C00B779EC /* ShooterScene.sks */; };
+		D1C4810A1C84C33400144427 /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C481081C84C33400144427 /* tap.png */; };
+		D1C4810B1C84C33400144427 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C481091C84C33400144427 /* title.png */; };
+		D1C4810D1C84CC3F00144427 /* boom.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C4810C1C84CC3F00144427 /* boom.png */; };
+		D1F084951C7EAE7A00F8F361 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F084941C7EAE7A00F8F361 /* AVFoundation.framework */; };
+		D1F084BC1C7EDB8600F8F361 /* bgaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1F084B91C7EDB8600F8F361 /* bgaudio.mp3 */; };
+		D1F084BD1C7EDB8600F8F361 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1F084BA1C7EDB8600F8F361 /* hit.wav */; };
+		D1F084BE1C7EDB8600F8F361 /* shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1F084BB1C7EDB8600F8F361 /* shoot.wav */; };
+		D1F084CD1C7EDBDD00F8F361 /* Bullet.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D1F084C91C7EDBDD00F8F361 /* Bullet.atlas */; };
+		D1F084CE1C7EDBDD00F8F361 /* idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D1F084CA1C7EDBDD00F8F361 /* idle.atlas */; };
+		D1F084CF1C7EDBDD00F8F361 /* Muzzle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D1F084CB1C7EDBDD00F8F361 /* Muzzle.atlas */; };
+		D1F084D01C7EDBDD00F8F361 /* shoot.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D1F084CC1C7EDBDD00F8F361 /* shoot.atlas */; };
+		D1F084D31C7FD67500F8F361 /* bgaudio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1F084D21C7FD67500F8F361 /* bgaudio2.mp3 */; };
+		D1F084D61C7FE2A000F8F361 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F084D41C7FE2A000F8F361 /* bg.png */; };
+		D1F084D71C7FE2A000F8F361 /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F084D51C7FE2A000F8F361 /* bomb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,22 @@
 		D19BC6E61C7CFD9400B779EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19BC6E91C7CFD9400B779EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19BC6EB1C7CFD9400B779EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19BC6F71C7D025C00B779EC /* ShooterScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShooterScene.swift; sourceTree = "<group>"; };
+		D19BC6F91C7D028C00B779EC /* ShooterScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShooterScene.sks; sourceTree = "<group>"; };
+		D1C481081C84C33400144427 /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tap.png; path = ../../resources/simpleRobot/Animation/tap.png; sourceTree = "<group>"; };
+		D1C481091C84C33400144427 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = ../../resources/simpleRobot/Animation/title.png; sourceTree = "<group>"; };
+		D1C4810C1C84CC3F00144427 /* boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boom.png; path = ../../resources/simpleRobot/Animation/boom.png; sourceTree = "<group>"; };
+		D1F084941C7EAE7A00F8F361 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D1F084B91C7EDB8600F8F361 /* bgaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgaudio.mp3; path = ../../resources/simpleRobot/Music/bgaudio.mp3; sourceTree = "<group>"; };
+		D1F084BA1C7EDB8600F8F361 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = ../../resources/simpleRobot/Music/hit.wav; sourceTree = "<group>"; };
+		D1F084BB1C7EDB8600F8F361 /* shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shoot.wav; path = ../../resources/simpleRobot/Music/shoot.wav; sourceTree = "<group>"; };
+		D1F084C91C7EDBDD00F8F361 /* Bullet.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Bullet.atlas; path = ../../resources/simpleRobot/Animation/Bullet.atlas; sourceTree = "<group>"; };
+		D1F084CA1C7EDBDD00F8F361 /* idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = idle.atlas; path = ../../resources/simpleRobot/Animation/idle.atlas; sourceTree = "<group>"; };
+		D1F084CB1C7EDBDD00F8F361 /* Muzzle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Muzzle.atlas; path = ../../resources/simpleRobot/Animation/Muzzle.atlas; sourceTree = "<group>"; };
+		D1F084CC1C7EDBDD00F8F361 /* shoot.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = shoot.atlas; path = ../../resources/simpleRobot/Animation/shoot.atlas; sourceTree = "<group>"; };
+		D1F084D21C7FD67500F8F361 /* bgaudio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgaudio2.mp3; path = ../../resources/simpleRobot/Music/bgaudio2.mp3; sourceTree = "<group>"; };
+		D1F084D41C7FE2A000F8F361 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../resources/simpleRobot/Animation/bg.png; sourceTree = "<group>"; };
+		D1F084D51C7FE2A000F8F361 /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bomb.png; path = ../../resources/simpleRobot/Animation/bomb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F084951C7EAE7A00F8F361 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,7 @@
 		D19BC6CF1C7CFD9400B779EC = {
 			isa = PBXGroup;
 			children = (
+				D1F084941C7EAE7A00F8F361 /* AVFoundation.framework */,
 				D19BC6DA1C7CFD9400B779EC /* simpleRobot */,
 				D19BC6D91C7CFD9400B779EC /* Products */,
 			);
@@ -58,6 +92,8 @@
 		D19BC6DA1C7CFD9400B779EC /* simpleRobot */ = {
 			isa = PBXGroup;
 			children = (
+				D1F084D11C7EDBE400F8F361 /* Animation */,
+				D1F084C01C7EDB9C00F8F361 /* Music */,
 				D19BC6DB1C7CFD9400B779EC /* AppDelegate.swift */,
 				D19BC6DD1C7CFD9400B779EC /* GameScene.sks */,
 				D19BC6DF1C7CFD9400B779EC /* GameScene.swift */,
@@ -66,8 +102,37 @@
 				D19BC6E61C7CFD9400B779EC /* Assets.xcassets */,
 				D19BC6E81C7CFD9400B779EC /* LaunchScreen.storyboard */,
 				D19BC6EB1C7CFD9400B779EC /* Info.plist */,
+				D19BC6F71C7D025C00B779EC /* ShooterScene.swift */,
+				D19BC6F91C7D028C00B779EC /* ShooterScene.sks */,
 			);
 			path = simpleRobot;
+			sourceTree = "<group>";
+		};
+		D1F084C01C7EDB9C00F8F361 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D1F084B91C7EDB8600F8F361 /* bgaudio.mp3 */,
+				D1F084D21C7FD67500F8F361 /* bgaudio2.mp3 */,
+				D1F084BA1C7EDB8600F8F361 /* hit.wav */,
+				D1F084BB1C7EDB8600F8F361 /* shoot.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		D1F084D11C7EDBE400F8F361 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D1F084D41C7FE2A000F8F361 /* bg.png */,
+				D1F084D51C7FE2A000F8F361 /* bomb.png */,
+				D1C4810C1C84CC3F00144427 /* boom.png */,
+				D1C481081C84C33400144427 /* tap.png */,
+				D1C481091C84C33400144427 /* title.png */,
+				D1F084C91C7EDBDD00F8F361 /* Bullet.atlas */,
+				D1F084CA1C7EDBDD00F8F361 /* idle.atlas */,
+				D1F084CB1C7EDBDD00F8F361 /* Muzzle.atlas */,
+				D1F084CC1C7EDBDD00F8F361 /* shoot.atlas */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +195,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19BC6DE1C7CFD9400B779EC /* GameScene.sks in Resources */,
+				D1C4810B1C84C33400144427 /* title.png in Resources */,
+				D1C4810D1C84CC3F00144427 /* boom.png in Resources */,
+				D19BC6FA1C7D028C00B779EC /* ShooterScene.sks in Resources */,
+				D1F084BE1C7EDB8600F8F361 /* shoot.wav in Resources */,
+				D1F084CE1C7EDBDD00F8F361 /* idle.atlas in Resources */,
+				D1F084D61C7FE2A000F8F361 /* bg.png in Resources */,
+				D1F084BC1C7EDB8600F8F361 /* bgaudio.mp3 in Resources */,
+				D1F084CD1C7EDBDD00F8F361 /* Bullet.atlas in Resources */,
 				D19BC6EA1C7CFD9400B779EC /* LaunchScreen.storyboard in Resources */,
 				D19BC6E71C7CFD9400B779EC /* Assets.xcassets in Resources */,
+				D1F084BD1C7EDB8600F8F361 /* hit.wav in Resources */,
+				D1F084CF1C7EDBDD00F8F361 /* Muzzle.atlas in Resources */,
+				D1F084D71C7FE2A000F8F361 /* bomb.png in Resources */,
 				D19BC6E51C7CFD9400B779EC /* Main.storyboard in Resources */,
+				D1F084D31C7FD67500F8F361 /* bgaudio2.mp3 in Resources */,
+				D1F084D01C7EDBDD00F8F361 /* shoot.atlas in Resources */,
+				D1C4810A1C84C33400144427 /* tap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +225,7 @@
 				D19BC6E01C7CFD9400B779EC /* GameScene.swift in Sources */,
 				D19BC6E21C7CFD9400B779EC /* GameViewController.swift in Sources */,
 				D19BC6DC1C7CFD9400B779EC /* AppDelegate.swift in Sources */,
+				D19BC6F81C7D025C00B779EC /* ShooterScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +375,7 @@
 				D19BC6F01C7CFD9400B779EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  simpleRobot
 //
-//  Created by Jeffrey Cabrera on 24/02/2016.
+//  Created by Jeffrey Cabrera
 //  Copyright (c) 2016 jcab. All rights reserved.
 //
 
